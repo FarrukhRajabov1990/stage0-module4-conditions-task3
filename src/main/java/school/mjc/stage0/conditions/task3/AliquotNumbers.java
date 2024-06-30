@@ -6,6 +6,8 @@ public class AliquotNumbers {
             System.out.println("Not aliquot");
         } else if (second % first == 0) {
             System.out.println("Aliquot");
+        } else {
+            System.out.println("Not aliquot");
         }
     }
 }
